@@ -1,8 +1,8 @@
 # Portfolio Site Prompt
 
-Build a polished portfolio site for "AI-native operating skills built by Jann Lau."
+Build a polished portfolio site for a public library of AI-native operating skills.
 
-Use the repo's `skills.json` as the content source. The site should feel like an operator showing how he builds leverage with AI, not a prompt-engineering hobby page.
+Use the repo's `skills.json` as the content source. The site should feel like a practical library of agent workflows, not a prompt-engineering hobby page.
 
 ## Audience
 
@@ -27,7 +27,7 @@ Each skill should show:
 - How it works
 - Tools and systems it touches
 - Example use case
-- What I learned building it
+- Build notes or design rationale
 - Link to the GitHub folder
 
 ## Visual Direction
