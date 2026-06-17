@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Question Discipline",
+    "slug": "question-discipline",
+    "category": "Decision Quality",
+    "shortDescription": "Finds the one question that changes the most downstream decisions.",
+    "problem": "Most question lists optimize for coverage. This skill optimizes for leverage.",
+    "howItWorks": "It names the decision, identifies the eigenquestion, ranks supporting questions, cuts low-signal asks, and rewrites the final questions in a direct operator voice.",
+    "tools": ["Workspace files", "Connected apps when context is needed", "Voice profile"],
+    "buildNotes": "Built around a repeated pattern in Corp Dev, advisory, interview, and meeting prep work: fewer questions, sharper signal.",
+    "githubPath": "skills/question-discipline",
+    "portfolioCopy": "A question strategy agent for moments where the question itself is the work."
+  },
+  {
+    "name": "But For Real",
+    "slug": "but-for-real",
+    "category": "Quality Control",
+    "shortDescription": "Runs an adversarial second-pass review before important work ships.",
+    "problem": "AI first drafts often sound complete before they are true, useful, or safe to rely on.",
+    "howItWorks": "It checks assumptions, user intent, execution path, quality bar, verification proof, and remaining limits before finalizing meaningful work.",
+    "tools": ["Local files", "Tests or validation scripts when relevant", "Source checks when facts are date-sensitive"],
+    "buildNotes": "Built as a critic layer for an AI-native operating system where generation is cheap but judgment still matters.",
+    "githubPath": "skills/but-for-real",
+    "portfolioCopy": "A final-review agent that catches the clean-sounding answer before it creates rework."
+  },
+  {
+    "name": "Skill Editor",
+    "slug": "skill-editor",
+    "category": "Agent Operations",
+    "shortDescription": "Audits and improves agent skills so they trigger cleanly and stay useful.",
+    "problem": "Local skills decay. Trigger language gets vague, instructions duplicate, evals miss the real failure modes, and AI slop creeps in.",
+    "howItWorks": "It reviews trigger quality, removes stale or generic instructions, tightens the workflow, updates evals, and preserves the judgment that makes the skill useful.",
+    "tools": ["Local skill folders", "SKILL.md", "evals.md", "memory.md"],
+    "buildNotes": "Built after skill creation became a repeatable workflow and needed its own maintenance layer.",
+    "githubPath": "skills/skill-editor",
+    "portfolioCopy": "A skill-maintenance agent for keeping an agent system sharp as it grows."
+  },
+  {
+    "name": "HTML Slides",
+    "slug": "html-slides",
+    "category": "Executive Artifacts",
+    "shortDescription": "Builds polished single-file HTML decks for executive, advisory, and async review work.",
+    "problem": "Slide work often gets trapped between generic templates and brittle exported screenshots.",
+    "howItWorks": "It classifies the deck mode, loads the right source context, generates title-slide previews when style is open, builds a fixed-stage native HTML deck, and runs visual QA.",
+    "tools": ["Browser QA", "PPTX extraction when templates are provided", "HTML/CSS/JS", "Optional web-derived brand discovery"],
+    "buildNotes": "Built for Jann's executive and advisory workflows where decks need to be readable, specific, and polished without becoming design theater.",
+    "githubPath": "skills/html-slides",
+    "portfolioCopy": "A deck-building agent that treats slides as decision artifacts, not decorative output."
+  },
+  {
+    "name": "Meeting Coach",
+    "slug": "meeting-coach",
+    "category": "Communication Coaching",
+    "shortDescription": "Reviews meeting transcripts and gives blunt, specific coaching on executive communication.",
+    "problem": "Generic meeting feedback is useless. The leverage is in transcript-specific moments: where the point was buried, the question was soft, or the decision moment was missed.",
+    "howItWorks": "It identifies the speaker, reviews transcript moments through a communication scorecard, rewrites high-leverage turns, and gives three concrete reps for the next meeting.",
+    "tools": ["Pasted transcripts", "Granola or meeting notes when available", "Voice profile"],
+    "buildNotes": "Built to turn real meeting transcripts into a practical coaching loop for concision, persuasion, question quality, and decision-driving.",
+    "githubPath": "skills/meeting-coach",
+    "portfolioCopy": "A meeting-coaching agent that turns transcripts into behavior you can practice next time."
+  }
+]
